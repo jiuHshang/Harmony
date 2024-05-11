@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+.nav {
+  background-color: bisque;
+  height: 81px;
+}
+.nav h1 {
+  height: 81px;
+  width: 162px;
+  background-color: aqua;
+  float: left;
+}
+.nav li {
+  width: 41px;
+  height: 81px;
+  float: right;
+}
+.ser {
+  background-color: rgb(212, 214, 211);
+  height: 469px;
+}
+
+.con {
+  background-color: rgb(104, 197, 179);
+  height: 407px;
+}
+.con > ul > li {
+  height: 240px;
+  width: 120px;
+  float: left;
+}
+.cli {
+  background-color: rgb(248, 248, 248);
+  height: 460px;
+}
+.cli > ul > li {
+  height: 240px;
+  width: 120px;
+  float: left;
+}
+.info {
+  background-color: pink;
+  height: 451px;
+}
+.info > h3 {
+  height: 40px;
+  width: 120px;
+  float: left;
+  background-color: blue;
+}
+.info > ul > li {
+  height: 140px;
+  width: 120px;
+  float: right;
+}
+.flo {
+  background-color: black;
+  height: 54px;
+}
+.flo > span {
+  float: left;
+  height: 40px;
+  width: 50px;
+  background-color: whitesmoke;
+}
+.flo > ul > li {
+  height: 40px;
+  width: 120px;
+  float: right;
+}

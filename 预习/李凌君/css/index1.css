@@ -1,0 +1,31 @@
+h1 {
+  color: red;
+}
+.fo {
+  font-size: 18px;
+  font-weight: bold;
+}
+.fo > span {
+  color: blue;
+}
+.d1 {
+  font-size: 14px;
+  width: 470px;
+  height: 150px;
+  background-color: pink;
+}
+.d1 > sup {
+  color: red;
+}
+.d1 > span:nth-child(2) {
+  background-color: red;
+  font-weight: bold;
+  color: yellow;
+}
+.d1 > span:nth-child(3) {
+  color: red;
+}
+.d1 > span:nth-child(4) {
+  background-color: greenyellow;
+  font-style: italic;
+}
